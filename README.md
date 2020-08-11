@@ -26,11 +26,9 @@ $ docker-compose build web
 $ docker-compose up
 ```
 
-<!--
-   -## Tests
-   -For rspec tests run:
-   -```bash
-   -$ docker-compose run web bundle exec rspec
-   -```
--->
+## Tests
+For rspec tests run:
+```bash
+$ docker-compose run web bundle exec rspec
+```
 
