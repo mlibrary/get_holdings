@@ -1,0 +1,262 @@
+{
+  "item": [
+    {
+      "bib_data": {
+        "mms_id": "991307290000541",
+        "title": "Time. ; Time ; ACQUIRE Title:",
+        "author": "Hadden, Briton,",
+        "issn": "0040-781X",
+        "isbn": null,
+        "complete_edition": "",
+        "network_number": [
+          "(TrN)58238-train20072_c2db",
+          "11137979",
+          "(OCoLC)ocm01767509"
+        ],
+        "place_of_publication": "[New York, etc.,",
+        "publisher_const": "Time Inc",
+        "link": "https://api-na.hosted.exlibrisgroup.com/almaws/v1/bibs/991307290000541"
+      },
+      "holding_data": {
+        "holding_id": "225237840000541",
+        "call_number_type": {
+          "value": "0",
+          "desc": "Library of Congress classification"
+        },
+        "call_number": "AP2 .T37",
+        "accession_number": "",
+        "copy_id": "0",
+        "in_temp_location": false,
+        "temp_library": {
+          "value": null,
+          "desc": null
+        },
+        "temp_location": {
+          "value": null,
+          "desc": null
+        },
+        "temp_call_number_type": {
+          "value": "",
+          "desc": null
+        },
+        "temp_call_number": "",
+        "temp_policy": {
+          "value": "",
+          "desc": null
+        },
+        "link": "https://api-na.hosted.exlibrisgroup.com/almaws/v1/bibs/991307290000541/holdings/225237840000541"
+      },
+      "item_data": {
+        "pid": "235235440000541",
+        "barcode": "66189254436232",
+        "creation_date": "2011-12-17Z",
+        "modification_date": "2018-06-13Z",
+        "base_status": {
+          "value": "1",
+          "desc": "Item in place"
+        },
+        "awaiting_reshelving": false,
+        "physical_material_type": {
+          "value": "ISSUE",
+          "desc": "Issue"
+        },
+        "policy": {
+          "value": "",
+          "desc": null
+        },
+        "provenance": {
+          "value": "",
+          "desc": null
+        },
+        "po_line": "1089",
+        "is_magnetic": false,
+       	"arrival_date": "2011-11-28",
+		    "expected_arrival_date": "2011-11-28",
+        "year_of_issue": "2011",
+        "enumeration_a": "171",
+        "enumeration_b": "1",
+        "enumeration_c": "",
+        "enumeration_d": "0",
+        "enumeration_e": "0",
+        "enumeration_f": "0",
+        "enumeration_g": "",
+        "enumeration_h": "0",
+        "chronology_i": "2008",
+        "chronology_j": "1",
+        "chronology_k": "7",
+        "chronology_l": "",
+        "chronology_m": "",
+        "description": "v. 178, no. 22 2011 Nov. 28",
+        "receiving_operator": "",
+        "process_type": {
+          "value": "",
+          "desc": null
+        },
+        "inventory_number": "",
+        "inventory_price": "",
+        "library": {
+          "value": "MAIN",
+          "desc": "Main Library"
+        },
+        "location": {
+          "value": "PER",
+          "desc": "Periodical Shelves"
+        },
+        "alternative_call_number": "",
+        "alternative_call_number_type": {
+          "value": "",
+          "desc": null
+        },
+        "storage_location_id": "",
+        "pages": "",
+        "pieces": "1",
+        "public_note": "",
+        "fulfillment_note": "",
+        "due_date": "2020-11-13T00:00:00Z",
+        "internal_note_1": "",
+        "internal_note_2": "",
+        "internal_note_3": "",
+        "statistics_note_1": "",
+        "statistics_note_2": "",
+        "statistics_note_3": "",
+        "requested": false,
+        "edition": null,
+        "imprint": null,
+        "language": null,
+        "physical_condition": {
+          "value": null,
+          "desc": null
+        }
+      },
+      "link": "https://api-na.hosted.exlibrisgroup.com/almaws/v1/bibs/991307290000541/holdings/225237840000541/items/235235440000541"
+    },
+    {
+      "bib_data": {
+        "mms_id": "991307290000541",
+        "title": "Time. ; Time ; ACQUIRE Title:",
+        "author": "Hadden, Briton,",
+        "issn": "0040-781X",
+        "isbn": null,
+        "complete_edition": "",
+        "network_number": [
+          "(TrN)58238-train20072_c2db",
+          "11137979",
+          "(OCoLC)ocm01767509"
+        ],
+        "place_of_publication": "[New York, etc.,",
+        "publisher_const": "Time Inc",
+        "link": "https://api-na.hosted.exlibrisgroup.com/almaws/v1/bibs/991307290000541"
+      },
+      "holding_data": {
+        "holding_id": "225237840000541",
+        "call_number_type": {
+          "value": "0",
+          "desc": "Library of Congress classification"
+        },
+        "call_number": "AP2 .T37",
+        "accession_number": "",
+        "copy_id": "0",
+        "in_temp_location": false,
+        "temp_library": {
+          "value": null,
+          "desc": null
+        },
+        "temp_location": {
+          "value": null,
+          "desc": null
+        },
+        "temp_call_number_type": {
+          "value": "",
+          "desc": null
+        },
+        "temp_call_number": "",
+        "temp_policy": {
+          "value": "",
+          "desc": null
+        },
+        "link": "https://api-na.hosted.exlibrisgroup.com/almaws/v1/bibs/991307290000541/holdings/225237840000541"
+      },
+      "item_data": {
+        "pid": "235235450000541",
+        "barcode": "86357931247241",
+        "creation_date": "2011-12-17Z",
+        "modification_date": "2018-06-13Z",
+        "base_status": {
+          "value": "1",
+          "desc": "Item in place"
+        },
+        "awaiting_reshelving": false,
+        "physical_material_type": {
+          "value": "ISSUE",
+          "desc": "Issue"
+        },
+        "policy": {
+          "value": "",
+          "desc": null
+        },
+        "provenance": {
+          "value": "",
+          "desc": null
+        },
+        "po_line": "1089",
+        "is_magnetic": false,
+        "year_of_issue": "2011",
+        "enumeration_a": "171",
+        "enumeration_b": "1",
+        "enumeration_c": "",
+        "enumeration_d": "0",
+        "enumeration_e": "0",
+        "enumeration_f": "0",
+        "enumeration_g": "",
+        "enumeration_h": "0",
+        "chronology_i": "2008",
+        "chronology_j": "1",
+        "chronology_k": "7",
+        "chronology_l": "",
+        "chronology_m": "",
+        "description": "v. 178, no. 21 2011 Nov. 21",
+        "receiving_operator": "",
+        "process_type": {
+          "value": "",
+          "desc": null
+        },
+        "inventory_number": "",
+        "inventory_price": "",
+        "library": {
+          "value": "MAIN",
+          "desc": "Main Library"
+        },
+        "location": {
+          "value": "per-room",
+          "desc": "Periodicals"
+        },
+        "alternative_call_number": "",
+        "alternative_call_number_type": {
+          "value": "",
+          "desc": null
+        },
+        "storage_location_id": "",
+        "pages": "",
+        "pieces": "1",
+        "public_note": "",
+        "fulfillment_note": "",
+        "internal_note_1": "",
+        "internal_note_2": "",
+        "internal_note_3": "",
+        "statistics_note_1": "",
+        "statistics_note_2": "",
+        "statistics_note_3": "",
+        "requested": false,
+        "edition": null,
+        "imprint": null,
+        "language": null,
+        "physical_condition": {
+          "value": null,
+          "desc": null
+        }
+      },
+      "link": "https://api-na.hosted.exlibrisgroup.com/almaws/v1/bibs/991307290000541/holdings/225237840000541/items/235235450000541"
+    }
+  ],
+  "total_record_count": 2
+}
