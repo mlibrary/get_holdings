@@ -1,7 +1,10 @@
 require 'excon'
 require 'json'
+require './models/response'
+require 'pry'
 class HttpClient
-  def initialize()
+  def initialize(limit: 100)
+    @limit = limit
     @headers = {
         'Authorization' => "apikey #{ENV.fetch('ALMA_API_KEY')}",
         'accept' => 'application/json'
@@ -20,20 +23,38 @@ class HttpClient
     end
   end
 
-  def put(url, body)
-    @headers['Content-Type'] = 'application/json'
-    Excon.put( full_url(url), body: body, headers: @headers )
-  end
-  def post(url)
-    Excon.post( full_url(url), headers: @headers )
+  def get_all(url:, record_key:)
+    offset = 0
+    output = get_range(url: url, offset: offset)
+    if output.status == 200
+      body = JSON.parse(output.body)
+      while  body['total_record_count'] > @limit + offset
+        offset = offset + @limit
+        my_output = get_range(url: url, offset: offset) 
+        if my_output.status == 200
+          my_body = JSON.parse(my_output.body)
+          my_body[record_key].each {|x| body[record_key].push(x)}
+        else
+          return my_output #return error
+        end
+      end 
+      Response.new(body: body.to_json) #return good response
+    else
+      output #return error
+    end
+  end 
+
+  def symbol(url)
+    url.match?('\?') ? '&' : '?'   
+  end 
+
+  private 
+  def get_range(url:, offset:)
+    url = "#{url}#{symbol(url)}limit=#{@limit}&offset=#{offset}"
+    get(url) 
   end
 
-  def delete(url)
-    Excon.delete( full_url(url), headers: @headers )
-  end
-  private
   def full_url(url)
-    url.slice!('/almaws/v1') #for barcode locations
     "#{ENV.fetch('ALMA_API_HOST')}/almaws/v1#{url}"
   end
 end
