@@ -14,15 +14,15 @@ class Collections
 end
 
 class Collection
-  attr_reader :code, :lib_info_link, :library_desc, :collection_description
+  attr_reader :code, :lib_info_link, :library_desc, :collection_desc
   def initialize(hash)
     @code = hash['code']
     @lib_info_link = hash['lib_info_link']
     @library_desc = hash['library_desc']
-    @collection_description = hash['collection_description']
+    @collection_desc= hash['collection_desc']
   end
   def to_h
-    { code: @code, lib_info_link: @lib_info_link, library_desc: @library_desc, collection_description: @collection_description }
+    { code: @code, lib_info_link: @lib_info_link, library_desc: @library_desc, collection_desc: @collection_desc}
   end
   def to_s
     to_h.to_s

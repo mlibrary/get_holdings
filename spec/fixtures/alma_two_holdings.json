@@ -1,0 +1,259 @@
+{
+  "item": [
+    {
+      "bib_data": {
+        "mms_id": "991508140000541",
+        "title": "The little fire engine.",
+        "author": "Lenski, Lois,",
+        "issn": null,
+        "isbn": null,
+        "complete_edition": "",
+        "network_number": [
+          "(TrN)2206-train20072_c2db",
+          "60015909 /AC L"
+        ],
+        "place_of_publication": "New York,",
+        "date_of_publication": "[1960?, c1946]",
+        "publisher_const": "H Z Walck",
+        "link": "https://api-na.hosted.exlibrisgroup.com/almaws/v1/bibs/991508140000541"
+      },
+      "holding_data": {
+        "holding_id": "226159670000951",
+        "call_number_type": {
+          "value": "0",
+          "desc": "Library of Congress classification"
+        },
+        "call_number": "PZ7",
+        "accession_number": "",
+        "copy_id": "",
+        "in_temp_location": false,
+        "temp_library": {
+          "value": null,
+          "desc": null
+        },
+        "temp_location": {
+          "value": null,
+          "desc": null
+        },
+        "temp_call_number_type": {
+          "value": "",
+          "desc": null
+        },
+        "temp_call_number": "",
+        "temp_policy": {
+          "value": "",
+          "desc": null
+        },
+        "link": "https://api-na.hosted.exlibrisgroup.com/almaws/v1/bibs/991508140000541/holdings/226159670000951"
+      },
+      "item_data": {
+        "pid": "236159660000951",
+        "barcode": "000236159660000951",
+        "creation_date": "2012-03-26Z",
+        "modification_date": "2018-06-13Z",
+        "base_status": {
+          "value": "1",
+          "desc": "Item in place"
+        },
+        "awaiting_reshelving": false,
+        "physical_material_type": {
+          "value": "",
+          "desc": null
+        },
+        "policy": {
+          "value": "",
+          "desc": null
+        },
+        "provenance": {
+          "value": "",
+          "desc": null
+        },
+        "po_line": "POL-611",
+        "arrival_date": "2012-12-12Z",
+        "year_of_issue": "",
+        "enumeration_a": "",
+        "enumeration_b": "",
+        "enumeration_c": "",
+        "enumeration_d": "",
+        "enumeration_e": "",
+        "enumeration_f": "",
+        "enumeration_g": "",
+        "enumeration_h": "",
+        "chronology_i": "",
+        "chronology_j": "",
+        "chronology_k": "",
+        "chronology_l": "",
+        "chronology_m": "",
+        "description": "",
+        "receiving_operator": "",
+        "process_type": {
+          "value": "",
+          "desc": null
+        },
+        "inventory_number": "",
+        "inventory_price": "",
+        "library": {
+          "value": "HATCH",
+          "desc": "Hatcher Graduate"
+        },
+        "location": {
+          "value": "CLC",
+          "desc": "Children's Literature Collection - 3rd floor S"
+        },
+        "alternative_call_number": "",
+        "alternative_call_number_type": {
+          "value": "",
+          "desc": null
+        },
+        "storage_location_id": "",
+        "pages": "",
+        "pieces": "",
+        "public_note": "",
+        "fulfillment_note": "",
+        "internal_note_1": "",
+        "internal_note_2": "",
+        "internal_note_3": "",
+        "statistics_note_1": "",
+        "statistics_note_2": "",
+        "statistics_note_3": "",
+        "requested": false,
+        "edition": null,
+        "imprint": null,
+        "language": null,
+        "physical_condition": {
+          "value": null,
+          "desc": null
+        }
+      },
+      "link": "https://api-na.hosted.exlibrisgroup.com/almaws/v1/bibs/991508140000541/holdings/226159670000951/items/236159660000951"
+    },
+    {
+      "bib_data": {
+        "mms_id": "991508140000541",
+        "title": "The little fire engine.",
+        "author": "Lenski, Lois,",
+        "issn": null,
+        "isbn": null,
+        "complete_edition": "",
+        "network_number": [
+          "(TrN)2206-train20072_c2db",
+          "60015909 /AC L"
+        ],
+        "place_of_publication": "New York,",
+        "date_of_publication": "[1960?, c1946]",
+        "publisher_const": "H Z Walck",
+        "link": "https://api-na.hosted.exlibrisgroup.com/almaws/v1/bibs/991508140000541"
+      },
+      "holding_data": {
+        "holding_id": "225874360000541",
+        "call_number_type": {
+          "value": "0",
+          "desc": "Library of Congress classification"
+        },
+        "call_number": "PZ7",
+        "accession_number": "",
+        "copy_id": "0",
+        "in_temp_location": false,
+        "temp_library": {
+          "value": null,
+          "desc": null
+        },
+        "temp_location": {
+          "value": null,
+          "desc": null
+        },
+        "temp_call_number_type": {
+          "value": "",
+          "desc": null
+        },
+        "temp_call_number": "",
+        "temp_policy": {
+          "value": "",
+          "desc": null
+        },
+        "link": "https://api-na.hosted.exlibrisgroup.com/almaws/v1/bibs/991508140000541/holdings/225874360000541"
+      },
+      "item_data": {
+        "pid": "235874350000541",
+        "barcode": "67624",
+        "creation_date": "2011-12-17Z",
+        "modification_date": "2018-06-13Z",
+        "base_status": {
+          "value": "1",
+          "desc": "Item in place"
+        },
+        "awaiting_reshelving": false,
+        "physical_material_type": {
+          "value": "BOOK",
+          "desc": "Book"
+        },
+        "policy": {
+          "value": "",
+          "desc": null
+        },
+        "provenance": {
+          "value": "",
+          "desc": null
+        },
+        "po_line": "",
+        "is_magnetic": false,
+        "year_of_issue": "",
+        "enumeration_a": "",
+        "enumeration_b": "",
+        "enumeration_c": "",
+        "enumeration_d": "",
+        "enumeration_e": "",
+        "enumeration_f": "",
+        "enumeration_g": "",
+        "enumeration_h": "",
+        "chronology_i": "",
+        "chronology_j": "",
+        "chronology_k": "",
+        "chronology_l": "",
+        "chronology_m": "",
+        "description": "",
+        "receiving_operator": "",
+        "process_type": {
+          "value": "",
+          "desc": null
+        },
+        "inventory_number": "",
+        "inventory_price": "",
+        "library": {
+          "value": "SPEC",
+          "desc": "Special Collections"
+        },
+        "location": {
+          "value": "CHIL",
+          "desc": "Children's Literature"
+        },
+        "alternative_call_number": "",
+        "alternative_call_number_type": {
+          "value": "",
+          "desc": null
+        },
+        "storage_location_id": "",
+        "pages": "",
+        "pieces": "1",
+        "public_note": "",
+        "fulfillment_note": "",
+        "internal_note_1": "",
+        "internal_note_2": "",
+        "internal_note_3": "",
+        "statistics_note_1": "",
+        "statistics_note_2": "",
+        "statistics_note_3": "",
+        "requested": false,
+        "edition": null,
+        "imprint": null,
+        "language": null,
+        "physical_condition": {
+          "value": null,
+          "desc": null
+        }
+      },
+      "link": "https://api-na.hosted.exlibrisgroup.com/almaws/v1/bibs/991508140000541/holdings/225874360000541/items/235874350000541"
+    }
+  ],
+  "total_record_count": 2
+}
