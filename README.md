@@ -1,4 +1,7 @@
-# README
+# README - Archived
+This was never used. Today (March 2022) holdings for Library Search are retrieved directly from Solr. 
+
+---
 
 This is the repository for the get_holdings API used by Library Search. It gathers data from Alma and does further processing to get the proper information and proper form for search to consume.
 
